@@ -33,7 +33,7 @@ class Song
     song = self.new
     @@all << song
     song.name = song_name
-    song
+    song[name]
   end
 
 end
